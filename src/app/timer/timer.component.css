@@ -4,9 +4,12 @@
   }
   .timer-counter-label{
     align-items: center;
-    font-size: 27px;
+    font-size: 90px;
   }
   .timer-start-text{
+    font-size: 20px;
+  }
+  .lap-text{
     font-size: 20px;
   }
   .timer-button{

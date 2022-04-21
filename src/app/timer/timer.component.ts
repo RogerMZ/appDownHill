@@ -82,6 +82,10 @@ export class TimerComponent implements OnInit, OnDestroy {
     clearInterval(this.timerRef);
   }
 
+  asignar(lap: any) {
+    alert("Asignar tiempo: " + lap);
+  }
+
   ngOnDestroy() {
     clearInterval(this.timerRef);
   }
